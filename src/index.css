@@ -25,3 +25,22 @@ button {
   font-weight: 700;
   font-size: 18px;
 }
+a {
+  color: var(--title-color);
+}
+a:link {
+}
+
+a:visited {
+  color: #e65c00;
+}
+
+a:focus {
+}
+
+a:hover {
+  color: #f9d423;
+}
+
+a:active {
+}
