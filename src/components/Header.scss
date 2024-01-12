@@ -1,0 +1,17 @@
+.headBox {
+  background: var(--bg-head);
+  box-sizing: border-box;
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5% 0 0 5%;
+  .appName,
+  .by {
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-weight: 700;
+  }
+}
