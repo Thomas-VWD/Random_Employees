@@ -6,7 +6,7 @@ This project is a simple web application that generates random employee data usi
 
 ## Preview
 
-![Random Employee Generator](https://random-employees.vercel.app/)
+[Random Employee Generator](https://random-employees.vercel.app/)
 
 ## Technologies Used
 
