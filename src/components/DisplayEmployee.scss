@@ -26,3 +26,22 @@
     background: var(--bg-head);
   }
 }
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .DisplayEmployee {
+    width: 100vw;
+    height: 65vh;
+    border-radius: 0;
+    img {
+      border: 3px solid #f9d423;
+      height: 150px;
+      width: 150px;
+    }
+    button {
+      border-radius: 50px;
+      height: 50px;
+      width: 75vw;
+      background: var(--bg-head);
+    }
+  }
+}

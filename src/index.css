@@ -34,3 +34,19 @@ a:visited {
 a:hover {
   color: #f9d423;
 }
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  p,
+  button {
+    font-size: 18px;
+  }
+  li {
+    font-size: 12px;
+  }
+}
