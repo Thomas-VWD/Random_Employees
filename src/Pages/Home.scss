@@ -2,3 +2,9 @@
   display: flex;
   flex-direction: row;
 }
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .homeBox {
+    flex-direction: column;
+  }
+}

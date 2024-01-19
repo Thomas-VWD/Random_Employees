@@ -15,3 +15,15 @@
     font-weight: 700;
   }
 }
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .headBox {
+    width: 100vw;
+    height: 35vh;
+    border-radius: 0;
+    .appName,
+    .by {
+      text-align: center;
+    }
+  }
+}
